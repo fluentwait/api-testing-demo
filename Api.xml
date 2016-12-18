@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ApiTestingSuite">
+    <test name="ApiTest">
+        <groups>
+            <run>
+                <include name="demo"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.fluentWait.framework"/>
+            <package name="com.fluentWait.test"/>
+        </packages>
+    </test>
+</suite>
