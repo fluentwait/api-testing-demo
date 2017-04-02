@@ -3,21 +3,15 @@ package com.fluentWait.test;
 import com.fluentWait.bin.EmployeeBin;
 import com.fluentWait.common.EndPoint;
 import com.fluentWait.framework.RestAssuredConfiguration;
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.apache.http.HttpStatus;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.is;
 
 /**
  * Created by Fluent Wait on 12/10/2016.

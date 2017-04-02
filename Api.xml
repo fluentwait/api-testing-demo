@@ -4,7 +4,7 @@
     <test name="ApiTest">
         <groups>
             <run>
-                <include name="demo"/>
+                <include name="google"/>
             </run>
         </groups>
         <packages>
